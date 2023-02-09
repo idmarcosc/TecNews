@@ -1,0 +1,99 @@
+/*
+  ___   ___   ___   ___   _____ 
+ | _ \ | __| / __| | __| |_   _|
+ |   / | _|  \__ \ | _|    | |  
+ |_|_\ |___| |___/ |___|   |_|  
+                                
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ebebeb;
+}
+/*
+  _  _   ___     _     ___    ___   ___ 
+ | || | | __|   /_\   |   \  | __| | _ \
+ | __ | | _|   / _ \  | |) | | _|  |   /
+ |_||_| |___| /_/ \_\ |___/  |___| |_|_\
+                                        
+*/
+header{
+    background-color: #f7b600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+header nav a:hover{
+    color: #f7b600;
+    background-color: white;
+}
+#area-logo{
+    margin-bottom: 2rem;
+    color: #4e4e4e;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+.white{
+    color: white;
+}
+/*
+  __  __     _     ___   _  _ 
+ |  \/  |   /_\   |_ _| | \| |
+ | |\/| |  / _ \   | |  | .` |
+ |_|  |_| /_/ \_\ |___| |_|\_|
+                              
+*/
+
+#container{
+    display: flex;
+    max-width: 120rem;
+    margin: auto;
+    background-color: white;
+}
+#posts{
+    width: 70%;
+}
+#sidebar{
+    width: 30%;
+}
+.articles{
+    max-width: 85%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.articles img {
+    max-width: 100%;
+}
+
+
+
+footer{
+    padding: 1rem;
+    text-align: center;
+    background-color: #f7b600;
+}
