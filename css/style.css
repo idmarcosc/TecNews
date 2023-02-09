@@ -166,8 +166,26 @@ header nav a:hover{
 
 
 
+.material-symbols-outlined {
+    color: white;
+    display: none;
+}
+
+#menu-mobile {
+    display: none;
+}
+
+
 @media (max-width: 600px) {
- 
+    .menu {
+        display: none;
+    }
+
+    #menu-mobile {
+        display: block;
+        text-align: right;
+        width: 100%;
+    }
 }
 
 
