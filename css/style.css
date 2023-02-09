@@ -20,6 +20,7 @@ html {
 body {
     font-size: 1.6rem;
     height: 100vh;
+    min-width: 35rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #ebebeb;
 }
@@ -36,6 +37,10 @@ header{
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+}
+
+header nav {
+    display: flex;
 }
 
 header nav ul{
@@ -79,9 +84,6 @@ header nav a:hover{
 #posts{
     width: 70%;
 }
-#sidebar{
-    width: 30%;
-}
 .articles{
     max-width: 85%;
     padding: 2rem;
@@ -97,16 +99,77 @@ header nav a:hover{
 .articles img {
     max-width: 100%;
 }
-.articles a {
-    text-decoration: none;
-    color: #f7b600;
-}
 .articles figcaption {
     font-size: 1.4rem;
     font-style: italic;
     font-weight: 200;
     padding-bottom: 1.5rem;
 }
+.articles p {
+
+}
+.articles a {
+    color: #f7b600;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.articles a:hover{
+    color: #4E4E4E;
+} 
+
+/*
+  ___   ___   ___    ___   ___     _     ___ 
+ / __| |_ _| |   \  | __| | _ )   /_\   | _ \
+ \__ \  | |  | |) | | _|  | _ \  / _ \  |   /
+ |___/ |___| |___/  |___| |___/ /_/ \_\ |_|_\
+                                             
+*/
+#sidebar{
+    width: 30%;
+}
+#sidebar h3 {
+    color: #4E4E4E;
+    background-color: #e7e7e7;
+    width: 95%;
+    padding: 0.2rem 2rem 0.2rem 1rem;
+    margin-top: 3rem;
+}
+#sidebar p{
+    padding: 0.5rem 2rem 0.5rem 1rem;
+}
+#sidebar div a{
+    padding: 0.2rem 1rem;
+    color: #f7b600;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+#sidebar a:hover{
+    color: #4E4E4E;
+} 
+#sidebar hr{
+    margin: 1rem 2rem 1rem 1rem;
+}
+#sidebar li{
+    list-style: none;
+    margin: 0.8rem 0.5rem;
+}
+#sidebar nav a{
+    color: #f7b600;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+#sidebar nav a:hover{
+    background-color: #f7b600;
+    color: white;
+}
+
+
+
+@media (max-width: 600px) {
+ 
+}
+
 
 /*
   ___    ___     ___    _____   ___   ___ 
