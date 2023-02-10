@@ -1,3 +1,3 @@
 # TecNews
  
-https://github.com/idmarcosc/TecNews
+https://idmarcosc.github.io/TecNews/
