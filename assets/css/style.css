@@ -66,13 +66,13 @@ header nav a:hover{
     color: var(--primary-color);
     background-color: var(--white);
 }
-#area-logo{
+#logo{
     margin-bottom: 2rem;
     color: var(--gray-text);
     font-size: 5rem;
     line-height: 5rem;
 }
-#area-logo span{
+#logo span{
     color: var(--white);
 }
 /*
@@ -91,6 +91,7 @@ header nav a:hover{
 }
 #posts{
     width: 70%;
+    margin: 3.5rem 0rem;
 }
 .articles{
     max-width: 85%;
@@ -135,6 +136,7 @@ header nav a:hover{
 
 #sidebar{
     width: 30%;
+    margin-top: 7rem;
 }
 #sidebar h3 {
     color: var(--gray-text);
@@ -214,6 +216,10 @@ footer{
 }
 
 @media (max-width: 600px) {
+    #logo{
+        margin-bottom: 0rem;
+    }
+
     header nav {
         display: none;
     }
