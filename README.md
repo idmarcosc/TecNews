@@ -17,7 +17,7 @@ Meu nome é Marcos e atualmente estou estudando desenvolvimento web, com foco em
 
 ## Como visualizar o site 🌐
 
-O site está hospedado no GitHub Pages e pode ser acessado através do seguinte link: <a href="https://idmarcosc.github.io/TecNews/" target="_blank">Tec News</a>
+O site está hospedado no GitHub Pages e pode ser acessado através do seguinte link: https://idmarcosc.github.io/TecNews
 
 ## Screenshots 📷
 
